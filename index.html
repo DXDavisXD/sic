@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="upper" style=" padding-top: 1px; margin-top: 270px;">
+        <div id="header">
+            <h1 id="pca_header">Simple Interest Calculator</h1>
+            <label for="principle">Principle (₹):</label><br>
+            <input id="princple" type="number"><br>
+            <label for="ROI">Rate of Interest (%):</label><br>
+            <input id="ROI" type="number"><br>
+            <label for="time">Time (Months):</label><br>
+            <input id="time" type="number">
+        </div>
+        <button type="button" id="submit" onclick="calculate()">SUBMIT</button>
+    </form>
+    <form id="lower">
+        <label id="ans_label">The interest is: </label>
+        <label id="answer">0.00 ₹</label>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

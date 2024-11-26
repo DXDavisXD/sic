@@ -1,0 +1,67 @@
+body{
+    background: hsl(0, 1%, 79%);
+}
+#upper{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-style: italic;
+    color: hsl(210, 100%, 34%);
+    background-color: hsl(187, 46%, 48%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: relative;
+    padding-bottom: 1%;
+    max-width: 400px;
+    margin: auto;
+}
+input{
+    border-radius: 10px;
+    background-color: hsla(208, 100%, 97%, 0.349);
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 1em;
+    font-weight: bold;
+    color: hsl(219, 26%, 32%);
+    border: none;
+}
+#header{
+    padding-bottom: 1%;
+    padding-top: 0%;
+}
+button{
+    border-radius: 10px;
+    background-color: hsla(199, 88%, 50%, 0.349);
+    text-align: center;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 1em;
+    color: hsl(219, 26%, 32%);
+    border-width: 2px;
+    border-color: hsla(199, 87%, 34%, 0.507);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsla(199, 87%, 41%, 0.349);
+}
+
+#lower{
+    text-align: center;
+    background-color: rgb(240, 220, 190);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width: 400px;
+    margin: auto;
+}
+#ans_label{
+    font-family: 'Elephant';
+    color: hsl(271, 76%, 53%);
+}
+#answer{
+    font-family: 'Rockwell';
+    font-weight: bold;
+    color:hsl(73, 94%, 35%);
+}
+
+
